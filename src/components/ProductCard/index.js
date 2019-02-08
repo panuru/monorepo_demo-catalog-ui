@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { Button } from '../../components'
+import { Button } from '@monorepo-demo/monorepo_demo-design_system';
 
 const Wrapper = styled.div`
     text-align: center;

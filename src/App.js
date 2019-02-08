@@ -1,12 +1,10 @@
 import React from 'react';
 import { ThemeProvider } from 'styled-components';
-import { CssReset, GlobalCss, Themes } from './style';
 import {
-  Header,
-  Container,
   ProductsList,
   ProductCard,
 } from './components'
+import { Header, Container, CssReset, GlobalCss, Themes } from '@monorepo-demo/monorepo_demo-design_system';
 
 export default () => {
   return (
